@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #0192d7;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: black;
+  color: white;
+}
+
+button {
+  -webkit-appearance: none;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+}
+
+canvas {
+  border: solid 1px var(--light-blue);
+  background: black;
+}
+
+.row {
+  display: flex;
+}
+
+.btns, canvas {
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between
+}
+
+.cont {
+  padding: 0 10px 0 10px;
+}
+
+.btns > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0 2em 0;
+  width: 33%;
+  margin-top: 1em;
+}
